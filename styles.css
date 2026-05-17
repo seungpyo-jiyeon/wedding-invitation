@@ -624,7 +624,7 @@ a {
   color: var(--color-text);
   padding: 0 var(--spacing-md) var(--spacing-lg);
   width: 100%;
-  transform: translateY(120px);
+  transform: translateY(220px);
 }
 
 .hero__label {
@@ -1404,7 +1404,4 @@ a {
   .wc-divider {
     display: none !important;
   }
-}
-body {
-  border: 10px solid red !important;
 }
