@@ -1405,3 +1405,6 @@ a {
     display: none !important;
   }
 }
+body {
+  border: 10px solid red !important;
+}
