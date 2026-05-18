@@ -1629,6 +1629,12 @@ a {
 .guest-photo-card:active {
   transform: scale(0.98);
 }
+
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .gallery {
   padding-top: 30px !important;
 }
