@@ -336,7 +336,6 @@
        <span class="parent-father">${g.father}</span>
        <span class="parent-dot">•</span>
        <span class="parent-mother">${g.mother}</span>
-       <span class="parent-dot">•</span>
        <span class="parent-relation">의 아들</span>
        <span class="child-name">승표</span>
      </div>
@@ -344,7 +343,6 @@
       <span class="parent-father">${b.father}</span>
       <span class="parent-dot">•</span>
       <span class="parent-mother">${b.mother}</span>
-      <span class="parent-dot">•</span>
       <span class="parent-relation">의&nbsp;&nbsp;&nbsp;딸</span>
       <span class="child-name">지연</span>
       </div>
