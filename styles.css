@@ -786,6 +786,7 @@ a {
    ═══════════════════════════════════════════ */
 .calendar-section {
   background-color: var(--color-bg-alt);
+  padding-bottom: 20px !important;
 }
 
 .calendar {
@@ -1627,4 +1628,7 @@ a {
 
 .guest-photo-card:active {
   transform: scale(0.98);
+}
+.gallery {
+  padding-top: 30px !important;
 }
