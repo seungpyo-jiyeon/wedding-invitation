@@ -1528,3 +1528,24 @@ a {
 .parent-row {
   white-space: nowrap;
 }
+
+.greeting__parents .parent-row {
+  display: grid !important;
+  grid-template-columns: 4.2em 0.8em 4.2em 0.8em 3.8em 2.5em;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  white-space: nowrap;
+  margin: 8px 0;
+}
+
+.parent-father,
+.parent-mother,
+.parent-relation,
+.child-name {
+  text-align: center;
+}
+
+.child-name {
+  font-weight: 700;
+}
