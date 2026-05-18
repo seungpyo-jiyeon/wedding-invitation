@@ -1406,3 +1406,30 @@ a {
     display: none !important;
   }
 }
+
+.parent-row {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.child-label {
+  display: inline-block;
+  width: 2.6em;
+  text-align: center;
+  color: #333;
+}
+
+.child-name {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.parent-dot {
+  color: #b98ac7;
+  font-size: 12px;
+  line-height: 1;
+}
