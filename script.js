@@ -333,14 +333,20 @@
 
     const parentsHTML = `
       <div class="parent-row">
-        ${parentLine(g.father, g.mother, g.fatherDeceased, g.motherDeceased)}
-        <span class="parent-dot">●</span>
-        의 <span class="child-label">아들 <span class="child-name">승표</span>
-      </div>
+       <span class="parent-father">${parentLine(g.father, '', g.fatherDeceased, false)}</span>
+       <span class="parent-dot">•</span>
+       <span class="parent-mother">${parentLine('', g.mother, false, g.motherDeceased)}</span>
+       <span class="parent-dot">•</span>
+       <span class="parent-relation">의 아들</span>
+       <span class="child-name">승표</span>
+     </div>
       <div class="parent-row">
-        ${parentLine(b.father, b.mother, b.fatherDeceased, b.motherDeceased)}
-        <span class="parent-dot">●</span>
-        의<span class="child-label">  딸 <span class="child-name">지연</span>
+      <span class="parent-father">${parentLine(b.father, '', b.fatherDeceased, false)}</span>
+      <span class="parent-dot">•</span>
+      <span class="parent-mother">${parentLine('', b.mother, false, b.motherDeceased)}</span>
+      <span class="parent-dot">•</span>
+      <span class="parent-relation">의&nbsp;&nbsp;&nbsp;딸</span>
+      <span class="child-name">지연</span>
       </div>
     `;
 
