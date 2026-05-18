@@ -1617,8 +1617,7 @@ a {
   font-size: 1rem;
   font-weight: 600;
 
-  box-shadow:
-    0 10px 24px rgba(185,146,212,0.22);
+  box-shadow: none;
 
   transition: all 0.25s ease;
 }
