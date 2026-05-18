@@ -1622,6 +1622,9 @@ a {
 
   transition: all 0.25s ease;
 }
+.guest-photo-card a {
+  color: #b48dcb !important;
+}
 
 .guest-photo-card:active {
   transform: scale(0.98);
