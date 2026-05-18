@@ -1582,3 +1582,51 @@ a {
   transform: translateY(-2px);
   opacity: 0.95;
 }
+
+.guest-photo-section {
+  padding: 30px 20px 10px;
+  text-align: center;
+}
+
+.guest-photo-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #7d6b75;
+  margin-bottom: 18px;
+  letter-spacing: 0.02em;
+}
+
+.guest-photo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 320px;
+
+  margin: 0 auto;
+
+  padding: 22px 20px;
+
+  border-radius: 24px;
+
+  background: linear-gradient(
+    135deg,
+    #d9c2ea,
+    #c6a7df
+  );
+
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  box-shadow:
+    0 10px 24px rgba(185,146,212,0.22);
+
+  transition: all 0.25s ease;
+}
+
+.guest-photo-card:active {
+  transform: scale(0.98);
+}
