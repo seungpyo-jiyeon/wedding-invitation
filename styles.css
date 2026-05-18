@@ -1479,3 +1479,48 @@ a {
   line-height: 1.8;
   color: #555;
 }
+
+/* 메인 사진과 글자 영역 분리 */
+.hero {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  background: var(--color-bg);
+}
+
+/* 사진을 위쪽에 독립적으로 배치 */
+.hero__photo {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: none !important;
+  display: block !important;
+}
+
+/* 흐린 오버레이 제거 */
+.hero__overlay {
+  display: none !important;
+}
+
+/* 이름/날짜를 사진 아래로 이동 */
+.hero__content {
+  position: relative !important;
+  z-index: 2 !important;
+  transform: none !important;
+  padding: 36px 20px 20px !important;
+  background: var(--color-bg);
+}
+
+/* 카운트다운도 글자 아래로 이동 */
+.countdown {
+  position: relative !important;
+  z-index: 2 !important;
+  margin-top: 0 !important;
+  padding: 10px 20px 50px !important;
+  background: var(--color-bg);
+}
