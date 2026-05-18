@@ -1653,3 +1653,7 @@ a {
   position: relative !important;
   z-index: 3 !important;
 }
+
+.parent-row .separator:last-of-type {
+  display: none;
+}
