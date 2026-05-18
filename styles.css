@@ -1638,3 +1638,23 @@ a {
 .gallery {
   padding-top: 30px !important;
 }
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__photo {
+  position: relative !important;
+  z-index: 1;
+}
+
+.hero__content {
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+.countdown {
+  position: relative !important;
+  z-index: 3 !important;
+}
