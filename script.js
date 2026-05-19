@@ -342,7 +342,7 @@
       <span class="parent-father">${b.father}</span>
       <span class="parent-dot">•</span>
       <span class="parent-mother">${b.mother}</span>
-      <span class="parent-relation">의&nbsp;&nbsp;&nbsp;딸 지연</span>
+      <span class="parent-relation">의&nbsp;&nbsp;딸&nbsp;지연</span>
       </div>
     `;
 
