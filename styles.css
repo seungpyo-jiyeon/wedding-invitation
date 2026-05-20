@@ -1658,11 +1658,3 @@ a {
   display: none;
 }
 
-.greeting__parents .parent-row {
-  grid-template-columns: 4.2em 0.8em 4.2em 5.5em !important;
-}
-
-.parent-relation {
-  text-align: left !important;
-  white-space: nowrap;
-}
